@@ -2,12 +2,6 @@
 void main()
 {
 int *ptr;
-ptr=fetch();
+ptr=100;
 printf("Value=%d",*ptr);
-}
-int *fetch()
-{
-int val;
-val=100;
-return &val;
 }
