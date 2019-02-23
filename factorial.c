@@ -8,7 +8,6 @@ int number,j,k;
 int fact = 1;
 int *ptr;
 
-k=j/0;
 
   printf("Enter a number to calculate its factorial\n");
   scanf("%d", &number);
