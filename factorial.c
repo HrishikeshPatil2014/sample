@@ -4,13 +4,13 @@
 int main()
 {
 
-int number,j,k;
+int number;
 
 
   printf("Enter a number to calculate its factorial\n");
   scanf("%d", &number);
 
-  printf("%d! = %ld\n", number, factorial(number));
+  printf("%d! = %d\n", number, factorial(number));
 
   return 0;
 
