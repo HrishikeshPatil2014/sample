@@ -23,5 +23,5 @@ int factorial(int n)
   for (c = 1; c <= n; c++)
     result = result * c;
 
-  return &result;
+  return result;
 }
